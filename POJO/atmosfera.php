@@ -11,51 +11,24 @@ class Atmosfera {
         $this->elementoTres = $elementoTres;
     }
     //GETTER SETTER
-    public function setElementoUno($nombre){
-        $this->elementoUno = $nombre;
+    public function setElementoUno($elem){
+        $this->elementoUno = $elem;
     }
     public function getElementoUno(){
         return this->elementoUno;
     }
-    public function setAtmosphere($atmos){
-        $this->elementoDos = $atmos;
+    public function setElementoDos($elemD){
+        $this->elementoDos = $elemD;
     }
     
-    public function getAtmosphere(){
+    public function getElementoDos(){
         return this->elementoDos;
     }
-    public function setMass($masa){
-        $this->mass = $masa;
+    public function setElementoTres($elemT){
+        $this->elementoTres = $elemT;
     }
     
-    public function getMass(){
-        return this->mass;
-    }
-    public function setOrbit($orbita){
-        $this->orbit = $orbita;
-    }
-    
-    public function getOrbit(){
-        return this->orbit;
-    }
-    public function setSize($tamanio){
-        $this->size = $tamanio;
-    }
-    
-    public function getSize(){
-        return this->size;
-    }
-    public function setMoon($luna){
-        $this->moon = $luna;
-    }
-    public function getMoon(){
-        return this->moon;
-    }
-    public function setChem($quim){
-        $this->chem = $quim;
-    }
-    
-    public function getChem(){
-        return this->chem;
+    public function getElementoTres(){
+        return this->elementoTres;
     }
 }
